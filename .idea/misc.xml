@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/app/ReservationSystem/app/src/main/res/layout/activity_main.xml" value="0.16145833333333334" />
+        <entry key="..\:/Apps/ReservationSystem/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/ReservationSystem/app/src/main/res/layout/activity_register_user.xml" value="0.16666666666666666" />
+        <entry key="..\:/Apps/ReservationSystem/app/src/main/res/layout/activity_view_user.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>
