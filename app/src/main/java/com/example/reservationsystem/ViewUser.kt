@@ -5,7 +5,9 @@ import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.reservationsystem.Database.UserViewModel
+import kotlinx.android.synthetic.main.activity_view_user.*
 
 class ViewUser : AppCompatActivity() {
 
@@ -22,6 +24,11 @@ class ViewUser : AppCompatActivity() {
         viewUser.getData.observe(this, Observer {
 
         })
+
+        dataview.layoutManager = LinearLayoutManager(this)
+        val adapter = UserRvvAdapter(this)
+
+        dataview.adapter = adapter
 
     }
 }

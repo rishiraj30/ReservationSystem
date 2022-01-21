@@ -12,7 +12,7 @@ interface UserDao{
     @Delete
     suspend fun delete(users: Users)
 
-    @Query("Select * from Userdb")
+    @Query("Select * from User")
     fun getData() : LiveData<List<Users>>
 
 }
